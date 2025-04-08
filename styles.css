@@ -1,0 +1,28 @@
+* {
+    font-family: Arial;
+    font-size: 24px;
+    text-align: center;
+}
+
+.actor, .season, .storytitle1, .storytitle2 {
+    width: 500px;
+    margin: auto;
+}
+
+.actor {
+    background-color: black;
+    color: white;
+}
+
+.season {
+    background-color: blue;
+    color: white;
+}
+
+.storytitle1 {
+    background-color: lightgrey;
+}
+
+.storytitle2 {
+    background-color: darkgray;
+}
