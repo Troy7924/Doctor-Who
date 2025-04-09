@@ -4,6 +4,10 @@
     text-align: center;
 }
 
+a {
+    font-size: 12px;
+}
+
 .actor, .season, .storytitle1, .storytitle2 {
     width: 500px;
     margin: auto;
