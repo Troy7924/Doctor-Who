@@ -14,12 +14,12 @@ a {
 }
 
 .actor {
-    background-image: linear-gradient(to right, #1f1c2c, #928dab);
+    background-image: linear-gradient(to right, #8e0e00, #1f1c18);
     color: white;
 }
 
 .season {
-    background-image: linear-gradient(to right, #1488cc, #2b32b2);
+    background-image: linear-gradient(to right, #0052d4, #4364f7, #6fb1fc);
     color: white;
 }
 
@@ -29,4 +29,24 @@ a {
 
 .storytitle2 {
     background-image: linear-gradient(to right, #d7dde8, #757f9a);
+}
+
+.doctorpic {
+    margin-top: 25px;
+    margin-bottom: 20px;
+    width: 200px;
+    height: 200px;
+}
+
+button {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.previous {
+    margin-right: 360px;
+}
+
+.next {
+    
 }
