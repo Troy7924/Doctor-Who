@@ -14,19 +14,19 @@ a {
 }
 
 .actor {
-    background-color: black;
+    background-image: linear-gradient(to right, #1f1c2c, #928dab);
     color: white;
 }
 
 .season {
-    background-color: blue;
+    background-image: linear-gradient(to right, #1488cc, #2b32b2);
     color: white;
 }
 
 .storytitle1 {
-    background-color: lightgrey;
+    background-image: linear-gradient(to right, #757f9a, #d7dde8);
 }
 
 .storytitle2 {
-    background-color: darkgray;
+    background-image: linear-gradient(to right, #d7dde8, #757f9a);
 }
