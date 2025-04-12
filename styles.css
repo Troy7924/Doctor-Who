@@ -4,10 +4,6 @@
     text-align: center;
 }
 
-@media (max-width: 500px) {
-    
-}
-
 a {
     font-size: 12px;
 }
@@ -35,10 +31,23 @@ a {
     background-image: linear-gradient(to right, #d7dde8, #757f9a);
 }
 
-.doctorpic {
+.doctorpic, .doctorpiclong, .doctorpicwide {
     margin-top: 25px;
     margin-bottom: 20px;
+}
+
+.doctorpic {
     width: 200px;
+    height: 200px;
+}
+
+.doctorpiclong {
+    width: 200px;
+    height: 300px;
+}
+
+.doctorpicwide {
+    width: 300px;
     height: 200px;
 }
 
