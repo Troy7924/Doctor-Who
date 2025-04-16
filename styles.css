@@ -4,8 +4,9 @@
     text-align: center;
 }
 
-a {
+a, span {
     font-size: 12px;
+    color: black;
 }
 
 .actor, .season, .storytitle1, .storytitle2 {
@@ -57,7 +58,15 @@ a {
 
 button {
     margin-top: 10px;
+    margin-bottom: 10px;
     font-size: 18px;
 }
 
-.
+.links {
+    background-image: linear-gradient(to right, #fbd3e9, #bb377d);
+    width: 750px;
+    margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
