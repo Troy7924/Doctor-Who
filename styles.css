@@ -23,7 +23,7 @@ body {
 }
 
 .actor {
-    font-size: 1.75rem;
+    font-size: 1.65rem;
     border-radius: 10px;
 }
 
@@ -112,7 +112,7 @@ section[class="stories"] div:nth-of-type(even) {
 }
 
 .links a {
-    width: 30%;
+    width: 31%;
     background-image: linear-gradient(to right, #fbd3e9, #bb377d);
     text-decoration: none;
     border-radius: 10px;
