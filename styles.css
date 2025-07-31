@@ -106,14 +106,14 @@ section[class="stories"] div:nth-of-type(even) {
 .links {
     display: flex;
     flex-wrap: wrap;
-    gap: 5px;
     justify-content: space-between;
 }
 
 .links a {
-    width: 130px;
+    width: 30%;
     background-image: linear-gradient(to right, #fbd3e9, #bb377d);
     text-decoration: none;
     border-radius: 10px;
+    margin-bottom: 5px;
 }
 
