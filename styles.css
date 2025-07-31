@@ -52,13 +52,12 @@ section[class="stories"] div:nth-of-type(even) {
 
 .doctorpic, .doctorpiclong, .doctorpicwide {
     margin-top: 20px;
-    margin-bottom: 15px;
-    border-radius: 10px;
 }
 
-.logo {
+.logo, .doctorpic, .doctorpiclong, .doctorpicwide {
     margin-bottom: 15px;
     border-radius: 10px;
+    border: 2px solid black;
 }
 
 .doctorpic {
