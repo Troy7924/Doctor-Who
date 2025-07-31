@@ -5,7 +5,10 @@
 }
 
 body {
-    background-color: black;
+    background-image: url("pictures/background.jpg");
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .links a, span {
@@ -13,14 +16,14 @@ body {
     color: black;
 }
 
-.actor, .season, section[class="stories"] div, .links {
+.actor, .season, section[class="stories"] div, .links, .buttons {
     width: 500px;
-    max-width: 100vw;
+    max-width: 94vw;
     margin: auto;
 }
 
 .actor {
-    font-size: 2rem;
+    font-size: 1.75rem;
     border-radius: 10px;
 }
 
@@ -73,11 +76,19 @@ section[class="stories"] div:nth-of-type(even) {
 
 .buttons {
     margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.single {
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
 }
 
 .buttons a:link, .buttons a:visited {
-    background-color: #f44336;
-    color: white;
+    background-image: linear-gradient(to right, #ff8008, #ffc837);
+    color: black;
     padding: 7px 12px;
     text-align: center;
     text-decoration: none;
@@ -88,17 +99,15 @@ section[class="stories"] div:nth-of-type(even) {
 }
 
 .buttons a:hover, .buttons a:active {
-  background-color: red;
+    cursor: pointer;
+    background-image: linear-gradient(to left, #ff8008, #ffc837);
 }
 
 .links {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
+    flex-wrap: wrap;
     gap: 5px;
-    justify-content: center;
-    padding-top: 5px;
-    padding-left: 25px;
-    box-sizing: border-box;
+    justify-content: space-between;
 }
 
 .links a {
